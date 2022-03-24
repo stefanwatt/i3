@@ -56,9 +56,3 @@ sed -i "s/theme =.*$/theme = \"norchad\",/g" $HOME/.config/nvim/lua/chadrc.lua
 # change xfce4-terminal colorscheme
 XFCE_TERM_PATH="$HOME/.config/xfce4/terminal"
 cp "$XFCE_TERM_PATH"/colorschemes/nord "$XFCE_TERM_PATH"/terminalrc
-
-#bluetooth
-blueman-applet &
-
-# set proper touchpad acceleration
-bash ~/.config/.touchpad.sh &
