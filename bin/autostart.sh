@@ -5,9 +5,9 @@
 # set proper refrsh rate etc.
 bash ~/.config/.xrandr.sh &
 
-feh --randomize --bg-fill ~/.wallpapers/* &
-
-/usr/bin/variety &
+# feh --randomize --bg-fill ~/.wallpapers/* &
+nitrogen --set-zoom-fill ~/.config/variety/Favorites/vim-ice.png
+# /usr/bin/variety &
 # polybar
 $HOME/.config/i3/bin/launchbar.sh
 

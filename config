@@ -1,3 +1,6 @@
+# variables
+# ideally these would be in a separate file, too
+# but apparently race condition doesnt allow for that 
 set $alt Mod1
 set $mod Mod4
 set $ws1 "1"
@@ -7,8 +10,12 @@ set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
-
+set $editor "alacritty --class 'neovim,neovim' -e '/home/stefan/.local/bin/lvim'" 
+set $browser "firefox"
+set $filemgr "thunar"
+set $terminal "alacritty"
 include ~/.config/i3/appearance.conf
+include ~/.config/i3/behaviour.conf
 include ~/.config/i3/keybindings.conf
 include ~/.config/i3/windows.conf
 include ~/.config/i3/workspaces.conf
