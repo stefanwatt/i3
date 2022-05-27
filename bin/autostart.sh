@@ -3,10 +3,10 @@
 # sets wallpaper using feh
 # bash $HOME/.config/i3/.fehbg
 # set proper refrsh rate etc.
-bash ~/.config/.xrandr.sh &
+bash ~/.config/i3/bin/xrandr.sh &
 
 # feh --randomize --bg-fill ~/.wallpapers/* &
-nitrogen --set-zoom-fill ~/.config/variety/Favorites/vim-ice.png
+nitrogen --set-zoom-fill ~/.config/i3/wallpaper.png
 # /usr/bin/variety &
 # polybar
 $HOME/.config/i3/bin/launchbar.sh
