@@ -1,5 +1,5 @@
 #!/bin/env bash
-xrandr --newmode "3440x1440_144.00"  1086.75  3440 3744 4128 4816  1440 1443 1453 1568 -hsync +vsync
-xrandr --addmode DP-1 3440x1440_144.00
-xrandr -s 3440x1440 -r 144.0
-xrandr --output DP-1 --set TearFree on
+# xrandr --newmode "uwqhd144" 1085.33  3440 3744 4128 4816  1440 1441 1444 1565  -HSync +Vsync 
+# xrandr --addmode HDMI-1 uwqhd144
+# xrandr --output HDMI-1 --mode uwqhd144 
+# xrandr --output eDP1 --off

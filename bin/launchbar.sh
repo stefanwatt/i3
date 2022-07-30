@@ -32,14 +32,6 @@ set_values() {
 
 ## Launch Polybar with selected style
 launch_bar() {
-	CARD=$(basename "$(find /sys/class/backlight/* | head -n 1)")
-	if [[ "$CARD" != *"intel_"* ]]; then
-		if [[ ! -f "$MFILE" ]]; then
-			sed -i -e 's/backlight/brightness/g' "$DIR"/config
-			touch "$MFILE"
-		fi
-	fi
-		
 	if [[ ! $(pidof polybar) ]]; then
 		polybar -q main -c "$DIR"/config &
 	else
