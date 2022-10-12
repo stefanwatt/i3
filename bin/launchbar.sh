@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 ## Files and Directories
 DIR="$HOME/.config/i3/polybar"
