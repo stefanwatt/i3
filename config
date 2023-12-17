@@ -11,7 +11,7 @@ set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
 set $editor "alacritty --class 'neovim,neovim' -e '/home/stefan/Applications/nvim.appimage'" 
-set $browser "firefox"
+set $browser "brave"
 set $filemgr "alacritty -e nvim ~"
 set $terminal "alacritty"
 include ~/.config/i3/appearance.conf
